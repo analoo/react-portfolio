@@ -12,6 +12,14 @@ export default {
 
     allProjects: function(userId){
         return axios.get(`/api/${userId}/projects`)
+    },
+
+    getTools: function(){
+        return axios.get("/api/tools")
+    },
+    
+    getOneProject: function(projid){
+        return axios.get(`/api/project/${projid}`)
     }
 
 }

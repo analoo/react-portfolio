@@ -6,7 +6,7 @@ import './App.css';
 import NavBar from "./Components/Navigation/NavBar";
 import MainDiv from "./Components/Navigation/MainDiv"
 
-import Home from "./pages/home";
+import Detail from "./pages/detail";
 import Resume from "./pages/resume";
 import Portfolio from "./pages/portfolio";
 import AboutMe from "./pages/aboutMe"
@@ -20,10 +20,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <NavBar />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/" component={AboutMe} />
           <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/aboutMe" component={AboutMe} />
+          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/project/:id" component={Detail} />
           <Route component={NoMatch} />
           </Switch>
       </MainDiv>  
