@@ -20,7 +20,7 @@ if (process.env.NODE_ENV === "production") {
 require("./routes/user-api-routes")(app);
 require("./routes/project-api-routes")(app);
 require("./routes/tools-api-routes")(app);
-require("./routes/html-routes")(app);
+// require("./to be removed/html-routes")(app);
 
 
 db.sequelize.sync().then(function() {
