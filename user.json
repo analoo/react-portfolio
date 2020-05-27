@@ -1,0 +1,13 @@
+[
+	{
+		"id" : 2,
+		"email" : "amedrano.fernandez@gmail.com",
+		"name" : "Ana Medrano",
+		"phone" : "(909)856-5256",
+		"github" : "analoo",
+		"linkedIn" : "https://www.linkedin.com/in/ana-medrano-fernandez/",
+		"aboutMe" : "Front-End Developer with 5+ years of experience building simple and intuitive tools for HR departments. Recent graduate with a certificate UC Berkeley extension school with skills in CSS, Javascript, HTML, [placeholder]. A passion for people is at the core of everything that I do - both my focus of analytics within HR, cross team collaboration and user experience. I am a creative problem solver who sees beyond individual projects and tasks to see how work fits into the bigger picture. In my most recent role, I saw a gap in performance data. I quickly leveraged google sheets and query functionality to make a database that was used as a temporary employee performance management system. This emphasis on execution often means that I am seen as a team player and a go to person for collaboration and resolving issues. I also have a high bar for quality and want to make magic for end users. I am consensus driven and often focus on creating minimum viable products quickly to ensure that end users and stakeholders can provide feedback early and often. I am most excited by big, challenging problems which I approach with calmness and good organizational skills.",
+		"createdAt" : "2020-05-07 06:19:00",
+		"updatedAt" : "2020-05-07 06:19:00"
+	}
+]
