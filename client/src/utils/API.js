@@ -8,6 +8,10 @@ export default {
 
     allUsers: function(){
         return axios.get("/api/users")
+    },
+
+    allProjects: function(userId){
+        return axios.get(`/api/${userId}/projects`)
     }
 
 }

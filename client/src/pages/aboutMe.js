@@ -22,7 +22,7 @@ function AboutMe() {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12 col-md-4">
-                        <img src="/images/AMF-2020.jpeg" style={{width: "100%", borderRadius: "10px"}} alt="Ana Medrano Image" />
+                        <img src="/assets/images/AMF-2020.jpeg" style={{width: "100%", borderRadius: "10px"}} alt="Ana Medrano Image" />
                     </div>
                     <div className="col-sm-12 col-md-8">
                         <div className="row">
