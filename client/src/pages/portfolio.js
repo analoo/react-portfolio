@@ -17,13 +17,11 @@ function Portfolio(){
             setProjects(res.data)
         })
         .catch(err => console.log(err))
-
     }
 
 
     return (
         <BodyDiv>
-
         <div>
             {projects.map(project => (
                 <Card data={project} key={project.id}/>
