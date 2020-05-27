@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 
-var PORT = process.env.PORT || 4000;
+var PORT = process.env.PORT || 4001;
 
 
 var db = require("./models")
@@ -10,17 +10,19 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-if (process.env.NODE_ENV === "production") {
-  app.use("*",function (req, res) {
-      res.sendFile(path.join(__dirname, "../public/index.html"));
-  });
-}
+
 
 // Routes
 require("./routes/user-api-routes")(app);
 require("./routes/project-api-routes")(app);
 require("./routes/tools-api-routes")(app);
-// require("./to be removed/html-routes")(app);
+require("./routes/html-routes")(app);
+
+if (process.env.NODE_ENV === "production") {
+  app.use("*",function (req, res) {
+      res.sendFile(path.join(__dirname, "../public/index.html"));
+  });
+}
 
 
 db.sequelize.sync().then(function() {

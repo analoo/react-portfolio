@@ -1,0 +1,20 @@
+.main-div{
+    width: 97%;
+    margin: auto;
+    padding: auto;
+    /* background-color: #CFC7D1; */
+}
+
+
+#navbarNavDropdown, .nav-link{
+    background-color: transparent;
+    font-weight: 500;
+}
+
+.body-div{
+    background-color: #CFC7D1;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+
+
