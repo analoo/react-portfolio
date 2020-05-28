@@ -27,7 +27,9 @@ function Card(props) {
                         <div className="col-md-8">
 
                             <p className="card-text">Description: {props.data.description}</p>
-
+                            {props.data.ProjectTools.map(pj => (
+                        <button style={{ backgroundColor: "#30442b", border: "solid 1px white", margin: "1px", color: "white" }} type="button" className="btn btn-outline-dark" key={pj.id}>{pj.name}</button>
+                            ))}
                         </div>
 
                     </div>
