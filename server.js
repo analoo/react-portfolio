@@ -10,6 +10,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("client/build"))
 
+// app.use(express.static("public"));
+
 
 
 // Routes
