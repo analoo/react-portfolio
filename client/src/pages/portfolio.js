@@ -22,6 +22,7 @@ function Portfolio() {
         API.allProjects("1")
             .then(res => {
                 setProjects(res.data)
+                console.log(res.data)
             })
             .catch(err => console.log(err))
     }
