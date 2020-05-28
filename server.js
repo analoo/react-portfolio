@@ -18,11 +18,7 @@ require("./routes/project-api-routes")(app);
 require("./routes/tools-api-routes")(app);
 require("./routes/html-routes")(app);
 
-if (process.env.NODE_ENV === "production") {
-  app.use("*",function (req, res) {
-      res.sendFile(path.join(__dirname, "../public/index.html"));
-  });
-}
+app.use(express.static("client/build"))
 
 
 db.sequelize.sync().then(function() {
