@@ -8,12 +8,18 @@ var db = require("./models")
 // Parse request body as JSON
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("client/build"))
 
-// app.use(express.static("public"));
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
+// Define API routes here
 
-
+// Send every other request to the React app
+// Define any API routes before this runs
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
 // Routes
 require("./routes/user-api-routes")(app);
 require("./routes/project-api-routes")(app);
