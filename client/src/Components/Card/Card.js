@@ -6,7 +6,7 @@ function Card(props) {
         <div className="card">
             <div className="card-body">
                 <h5 className="card-title">{props.data.title}</h5>
-                <a style={{backgroundColor: "transparent", border: "none", color: "#a7a4b3"}}type="button" href={"/project/"+props.data.id} target="_blank" className="btn btn-primary">More Details</a>
+                {/* <a style={{backgroundColor: "transparent", border: "none", color: "#a7a4b3"}}type="button" href={"/project/"+props.data.id} target="_blank" className="btn btn-primary">More Details</a> */}
 
                 <div className="container">
                     <div className="row">
