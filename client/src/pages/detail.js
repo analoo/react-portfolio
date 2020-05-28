@@ -38,7 +38,7 @@ const Details = (props) => {
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-4">
-                                    <img src={`../../public/${project.associatedImage}`} style={{ width: "100%" }} className="card-img-left" alt={project.name} />
+                                    <img src={${project.associatedImage}} style={{ width: "100%" }} className="card-img-left" alt={project.name} />
 
                                 </div>
                                 <div className="col-md-8">
