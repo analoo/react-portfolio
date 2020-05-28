@@ -2,19 +2,49 @@
     width: 97%;
     margin: auto;
     padding: auto;
+    min-height: 100vh;
     /* background-color: #CFC7D1; */
+}
+
+nav{
+    background-color: white;
 }
 
 
 #navbarNavDropdown, .nav-link{
-    background-color: transparent;
     font-weight: 500;
 }
 
+a.nav-link{
+    color: #912069;
+    font-size: medium;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+}
+
 .body-div{
-    background-color: #CFC7D1;
-    margin: 10px 0 10px 0;
-    padding: 10px;
+    background-color: white;
+    margin: 0 0 10px 0;
+    border-top: solid 15px #30442b;
+    padding: 20px;
+}
+
+.name-banner{
+    height: 10vh;
+    text-align: center;
+    vertical-align: middle;
+    padding: 25px;
+    margin: auto;;
+    
+
+}
+
+h1{
+    font-weight: 300;
+}
+
+.logo{
+    max-height: 40px;
 }
 
 

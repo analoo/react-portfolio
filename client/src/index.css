@@ -1,8 +1,5 @@
 body {
-  margin: 0;
-  font-family: 'Times New Roman', Times, serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Quicksand', sans-serif;
 }
 
 code {
@@ -11,5 +8,7 @@ code {
 }
 
 #root{
-  background-color: #3D1232;
+  background-color: thistle;
 }
+
+
