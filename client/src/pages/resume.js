@@ -12,6 +12,7 @@ function Resume() {
             <BodyDiv>
                 <div className="main-panel" id="resume">
                     <h3>Resume</h3>
+                    <a href="https://drive.google.com/file/d/1OYGGSyVE35UBwBu_RaFr1sw3RbDqow5d/view?usp=sharing">link</a>
                     <div id="resume-summary" className="resume-section">
                         <h4 className="resume-heading">SUMMARY</h4>
                         <p className="centered-text">HR professional experienced in working at hyper growth organizations interested
