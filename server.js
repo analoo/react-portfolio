@@ -8,7 +8,7 @@ var db = require("./models")
 // Parse request body as JSON
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("public"));
+app.use(express.static("client/build"))
 
 
 
@@ -18,7 +18,6 @@ require("./routes/project-api-routes")(app);
 require("./routes/tools-api-routes")(app);
 require("./routes/html-routes")(app);
 
-app.use(express.static("client/build"))
 
 
 db.sequelize.sync().then(function() {
