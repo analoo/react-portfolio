@@ -12,7 +12,7 @@ function AboutMe() {
     }, [])
 
     function getUserData() {
-        API.userData("2")
+        API.userData("1")
             .then(res =>
                 setUser(res.data))
             .catch(err => console.log(err))

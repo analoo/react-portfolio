@@ -19,7 +19,7 @@ function Portfolio() {
     }, [])
 
     function loadProjects() {
-        API.allProjects("2")
+        API.allProjects("1")
             .then(res => {
                 setProjects(res.data)
             })
