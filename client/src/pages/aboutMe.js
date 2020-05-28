@@ -38,10 +38,10 @@ function AboutMe() {
                             <div className="row">
 
                                 <div className="col-sm-4 col-md-3">
-                                    <img className="logo" src="/assets/images/github.png" href={"https://github.com/" + user.github} target="_blank" />
+                                    <a href={"https://github.com/" + user.github} target="_blank" ><img className="logo" src="/assets/images/github.png"/></a>
                                 </div>
                                 <div className="col-sm-4 col-md-3">
-                                    <img className="logo" src="/assets/images/linkedIn.png" href={user.linkedIn} target="_blank" />
+                                    <a href={user.linkedIn} target="_blank" ><img className="logo" src="/assets/images/linkedIn.png"/></a>
                                 </div>
 
                             </div>

@@ -4,7 +4,8 @@ function NavBar() {
   return (
     <div>
       <div className="name-banner">
-        <img src="/assets/images/grey-A.svg" alt ="logo"/>
+
+        <img style={{align: "left"}}src="/assets/images/grey-A.svg" alt ="logo"/>
         <h1>Ana Medrano</h1>
       </div>
       <nav className="navbar navbar-expand-lg text-center">
