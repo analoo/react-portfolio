@@ -1,0 +1,91 @@
+#home-div{
+    background-color: thistle;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.boxes{
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: xx-large;
+    color: thistle;
+}
+
+#box-hi{
+    margin-top: 200px;
+    animation-name: box-animation;
+    animation-duration: 12s;
+}
+
+#box-intro{
+    animation-delay: 1s;
+    animation-name: box-animation;
+    animation-duration: 11s;
+   
+}
+
+#box-passion{
+    animation-delay: 2s;
+    animation-name: box-animation;
+    animation-duration: 8s;
+}
+
+#box-people{
+    animation-delay: 3s;
+    animation-name: box-animation;
+    animation-duration: 7s;
+}
+#box-culture{
+    animation-delay: 4s;
+    animation-name: box-animation;
+    animation-duration: 6s;
+}
+
+#box-learning{
+    animation-delay: 5s;
+    animation-name: box-animation;
+    animation-duration: 5s;
+}
+
+#box-connecting{
+    animation-delay: 6s;
+    animation-name: box-animation;
+    animation-duration: 4s;
+}
+
+#circle-7{
+    position: relative;
+    width: 0px;
+    animation-delay: 6s;
+    animation-name: circle-animation;
+    animation-duration: 5s;
+}
+
+#redirect{
+    animation-delay: 10s;
+    animation-name: box-animation;
+    animation-duration: 50s;
+}
+
+  
+@keyframes box-animation {
+    from {color:#912069}
+    to {color:transparent}
+  }
+
+@keyframes circle-animation{
+    0%   {width: 20px; bottom: 10px}
+    100% {width: 100px; bottom: 350px}
+}
+
+
+/* the green color: #30442b */
+/* the light green color#a0ae7e */
